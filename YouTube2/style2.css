@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+
+    border: 1px solid blue;
+    background-color: #131313;
+}
+
+header {
+    height: 72px;
+    width: 100%;
+
+    background-color: #040404;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-nav {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    width: 100%;
+
+    padding: 8px 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-svg {
+    width: 45px;
+    height: 45px;
+
+    background-image: url(icon-youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search {
+    width: 400px;
+    height: 30px;
+    border-radius: 12px;
+
+    text-indent: 10px;
+    font-size: 17px;
+}
+
+#search::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+
+    background-image:url(lupa.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0px 16px;
+}
+
+.nav-link {
+    display: inline-block;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    transition: .5 ease;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    padding: 8px 16px;
+
+    display: flex;
+}
+
+.container1 {
+    flex-direction: row;
+    
+}
+
+.video-side {
+    display: inline-block;
+    margin: 0px 5px;
+    
+    justify-content: space-around;
+}
+
+.thumb {
+    height: 160px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: #a0a0a0;
+}
+
+.container1 {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    padding: 8px 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h3, p {
+    color: #fff;
+}
