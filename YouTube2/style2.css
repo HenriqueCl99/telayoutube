@@ -7,14 +7,14 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background-color: #131313;
+    background-color: #2b2a2a;
 }
 
 header {
     height: 72px;
     width: 100%;
 
-    background-color: #040404;
+    background-color: #1f1d1d;
 
     display: flex;
     justify-content: space-between;
@@ -44,9 +44,10 @@ header {
 }
 
 #search {
-    width: 400px;
-    height: 30px;
-    border-radius: 12px;
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
 
     text-indent: 10px;
     font-size: 17px;
